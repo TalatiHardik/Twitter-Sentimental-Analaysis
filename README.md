@@ -7,7 +7,7 @@ Performing Sentiment Analysis on data from Twitter using Python can help compani
 
 ## Code and Package Used 
 **Python Version:** 3.8  
-**Packages:** Tweepy , Tweepy
+**Packages:** Tweepy , TextBlob
 
 1.	Tweepy: tweepy is the python client for the official Twitter API.
 2.	TextBlob: textblob is the python library for processing textual data.
