@@ -10,10 +10,10 @@ def clean_tweet(tweet):
 #This function authenticates twitter user using consumer keys, consumer secret key, access token key, access token secret key.   
 def authentication():  
 	consumer_key = 'r7AgkIrLENJbOlBpIwOh2px32'  
-	consumer_secret = 'uPaYOsNvAxSUfTxirlTHgeQcb8HChd6Fsf7uA7tjkgtcJSbjzG'  
-
-    access_token = '719410046174498816-zROytmN7YWAIs6evzHT9Q6sNm2Epmke'  
-    access_token_secret = 'Ce328rgAdoLuylnvSzlEPiXxPQCZaC9JAa4cU47f4TOBn'  
+	consumer_secret = 'uPaYOsNvAxSUfTxirlTHgeQcb8HChd6Fsf7uA7tjkgtcJSbjzG'
+	
+	access_token = '719410046174498816-zROytmN7YWAIs6evzHT9Q6sNm2Epmke'  
+	access_token_secret = 'Ce328rgAdoLuylnvSzlEPiXxPQCZaC9JAa4cU47f4TOBn'  
 
 
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)  
